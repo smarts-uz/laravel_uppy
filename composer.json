@@ -1,0 +1,32 @@
+{
+  "name": "teamprodev/laravel_uppy",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ArabicDev",
+      "email": "sardoryusupov230@gmail.com"
+    },
+    {
+      "name": "xeroctation",
+      "email": "umidakosimova.uk@gmail.com"
+    },
+    {
+      "name": "RobiyaOripova",
+      "email": "robiyaoripova1997@mail.ru"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Teamprodev\\Uppy\\Providers\\UppyServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Teamprodev\\Uppy\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
