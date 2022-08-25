@@ -13,13 +13,9 @@ class UppyServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'uppy');
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
-        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         $this->publishes([
-            __DIR__ . '/../resources/views' => base_path('resources/views/Teamprodev/uppy'),
-            __DIR__ . '/../resources/assets' => base_path('public/assets'),
-            __DIR__.'/../config/config.php' => config_path('uppy.php'),
+            __DIR__ . '/../resources/views' => base_path('resources/views'),
+            __DIR__ . '/../View/Components/' => base_path('app/View/Components'),
         ]);
     }
 
