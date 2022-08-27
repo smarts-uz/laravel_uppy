@@ -17,6 +17,7 @@ class UppyServiceProvider extends ServiceProvider
             __DIR__ . '/../resources/views/components/' => base_path('resources/views/components'),
             __DIR__ . '/../View/Components/' => base_path('app/View/Components'),
             __DIR__ . '/../Http/Controllers/' => base_path('app/Http/Controllers'),
+            __DIR__ . '/../config/' => base_path('config'),
         ]);
     }
 
