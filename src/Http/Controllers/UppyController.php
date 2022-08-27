@@ -8,7 +8,7 @@ namespace Teamprodev\Uppy\Http\Controllers;
 
 use App\Models\Application;
 
-class UppyController
+class UppyController extends Controller
 {
     public function uploadImage(Request $request,Application $application)
     {
