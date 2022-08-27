@@ -8,6 +8,7 @@ namespace Teamprodev\Uppy\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Application;
+use Illuminate\Http\Request;
 
 class UppyController extends Controller
 {
